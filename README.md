@@ -9,6 +9,10 @@
 - Styles => Fidel
 - Interaction => Ale
 
+## Resources
+
+- GIT Cheatsheet : https://training.github.com/downloads/github-git-cheat-sheet/
+
 ## HTML work
 
 Tomé la decisión de dividir el proyecto en tres secciones left, jar y right para colocar las plantas a ambos lados y dejar el terrario en el centro de la pantalla. Se agregó la carpeta de imágenes y los recursos necesarios y se aprovecho la estructura original del dibujo del tarro de terrario.
