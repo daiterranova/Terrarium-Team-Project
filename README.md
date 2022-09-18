@@ -19,3 +19,6 @@ Tomé la decisión de dividir el proyecto en tres secciones left, jar y right pa
 
 ## CSS work
 Se procedio a crear carpeta style y archivo style.css y a continuacion se dio estilos a las secciones left, jar, right y a las imagenes dentro de la seccion jar.
+
+## JS work
+En el JS se utilizaron los eventos Drag and Drop para poder manipular los elementos y moverlos dentro del terrario. 
