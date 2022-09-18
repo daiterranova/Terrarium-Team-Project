@@ -2,9 +2,6 @@ const plantas = document.querySelectorAll(".plant");
 const terrarium = document.querySelector("#terrarium");
 const cantPlantas = plantas.length;
 
-console.log(plantas);
-console.log(cantPlantas);
-
 for (let i = 1; i <= cantPlantas; i++) {
   dragElement(document.getElementById(`plant${i}`));
 }
@@ -18,7 +15,6 @@ function dragElement(terrariumElement) {
 
   function pointerDrag(e) {
     e.preventDefault();
-    console.log(e);
     pos3 = e.clientX;
     pos4 = e.clientY;
 
@@ -31,12 +27,11 @@ function dragElement(terrariumElement) {
     pos2 = pos4 - e.clientY;
     pos3 = e.clientX;
     pos4 = e.clientY;
-    console.log(pos1, pos2, pos3, pos4);
     terrariumElement.style.top = terrariumElement.offsetTop - pos2 + "px";
     terrariumElement.style.left = terrariumElement.offsetLeft - pos1 + "px";
   }
   function stopElementDrag() {
     document.onpointerup = null;
     document.onpointermove = null;
-    }
+  }
 }
